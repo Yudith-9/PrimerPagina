@@ -1,0 +1,54 @@
+/* Para indicar donde van los estilos (sección de body) */
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,183,233,0.5796041135434751) 100%);
+   
+/* Link para tipos de letras https://www.creativefabrica.com/fonts/?utm_source=bing&utm_medium=paid_search&utm_campaign=Fonts_ww_de_subscription_tcpa%3D40_search-new&utm_term=download%20fonts&gclid=&utm_reftag=&msclkid=7f91459e141a1b84eb5d22b3676eb8ba&utm_content=download%20fonts_en_broad */
+
+font-family: "Funnel Sans", sans-serif
+}
+
+/* Dar tamañoa imagenes */
+img{
+    height: 250px ;
+ /* Para colocar borde a las imagenes */
+
+    border-radius: 20px;
+
+}
+
+/* Dar tamaño a imagenes por clase */
+
+/* Para identificar que es una clase poner un punto al inicio y despues el nomre de la clase asignado a la imagen */
+
+.portada{
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.VanGogh{
+    height: 300px;
+    border: double;
+}
+
+.girasoles{
+    height: 250px00;
+    
+}
+/* Poner un fondo con imagen */
+.pinturas{
+    background-image: url(https://th.bing.com/th/id/R.7ce019279ac59b4eb04d0911b5461c8c?rik=m6UAOQufczf9Lw&pid=ImgRaw&r=0);
+    
+
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+p{
+    text-align: justify;
+}
